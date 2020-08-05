@@ -54,101 +54,102 @@ body{
 .zahid .row .col-11 {flex: calc(100% / 12 * 11);}
 .zahid .row .col-12 {flex: 0 0 100%;}
 @media only screen and (max-width: 600px) {
-	.zahid .hidden-xs { display: none; }
-	.zahid .only-sm { display: none; }
-	.zahid .only-md { display: none; }
-	.zahid .only-lg { display: none; }
-	.zahid .only-xl { display: none; }
-	.zahid .row .col-xs-1 {flex: calc(100% / 12 * 1);}
-	.zahid .row .col-xs-2 {flex: calc(100% / 12 * 2);}
-	.zahid .row .col-xs-3 {flex: calc(100% / 12 * 3);}
-	.zahid .row .col-xs-4 {flex: calc(100% / 12 * 4);}
-	.zahid .row .col-xs-5 {flex: calc(100% / 12 * 5);}
-	.zahid .row .col-xs-6 {flex: calc(100% / 12 * 6);}
-	.zahid .row .col-xs-7 {flex: calc(100% / 12 * 7);}
-	.zahid .row .col-xs-8 {flex: calc(100% / 12 * 8);}
-	.zahid .row .col-xs-9 {flex: calc(100% / 12 * 9);}
-	.zahid .row .col-xs-10 {flex: calc(100% / 12 * 10);}
-	.zahid .row .col-xs-11 {flex: calc(100% / 12 * 11);}
-	.zahid .row .col-xs-12 {flex: 0 0 100%;}
+	.zahid .hidden-xs { display: none !important; }
+	.zahid .only-sm { display: none !important; }
+	.zahid .only-md { display: none !important; }
+	.zahid .only-lg { display: none !important; }
+	.zahid .only-xl { display: none !important; }
+	.zahid .row .col-xs-1 {flex: calc(100% / 12 * 1) !important;}
+	.zahid .row .col-xs-2 {flex: calc(100% / 12 * 2) !important;}
+	.zahid .row .col-xs-3 {flex: calc(100% / 12 * 3) !important;}
+	.zahid .row .col-xs-4 {flex: calc(100% / 12 * 4) !important;}
+	.zahid .row .col-xs-5 {flex: calc(100% / 12 * 5) !important;}
+	.zahid .row .col-xs-6 {flex: calc(100% / 12 * 6) !important;}
+	.zahid .row .col-xs-7 {flex: calc(100% / 12 * 7) !important;}
+	.zahid .row .col-xs-8 {flex: calc(100% / 12 * 8) !important;}
+	.zahid .row .col-xs-9 {flex: calc(100% / 12 * 9) !important;}
+	.zahid .row .col-xs-10 {flex: calc(100% / 12 * 10) !important;}
+	.zahid .row .col-xs-11 {flex: calc(100% / 12 * 11) !important;}
+	.zahid .row .col-xs-12 {flex: 0 0 100% !important;}
 }
 @media only screen and (min-width: 600px) and (max-width: 768px)
 {
-	.zahid .hidden-sm { display: none; }
-	.zahid .only-xs { display: none; }
-	.zahid .only-md { display: none; }
-	.zahid .only-lg { display: none; }
-	.zahid .only-xl { display: none; }
-	.zahid .row .col-sm-1 {flex: calc(100% / 12 * 1);}
-	.zahid .row .col-sm-2 {flex: calc(100% / 12 * 2);}
-	.zahid .row .col-sm-3 {flex: calc(100% / 12 * 3);}
-	.zahid .row .col-sm-4 {flex: calc(100% / 12 * 4);}
-	.zahid .row .col-sm-5 {flex: calc(100% / 12 * 5);}
-	.zahid .row .col-sm-6 {flex: calc(100% / 12 * 6);}
-	.zahid .row .col-sm-7 {flex: calc(100% / 12 * 7);}
-	.zahid .row .col-sm-8 {flex: calc(100% / 12 * 8);}
-	.zahid .row .col-sm-9 {flex: calc(100% / 12 * 9);}
-	.zahid .row .col-sm-10 {flex: calc(100% / 12 * 10);}
-	.zahid .row .col-sm-11 {flex: calc(100% / 12 * 11);}
-	.zahid .row .col-sm-12 {flex: 0 0 100%;}
+	.zahid .hidden-sm { display: none !important; }
+	.zahid .only-xs { display: none !important; }
+	.zahid .only-md { display: none !important; }
+	.zahid .only-lg { display: none !important; }
+	.zahid .only-xl { display: none !important; }
+	.zahid .row .col-sm-1 {flex: calc(100% / 12 * 1) !important;}
+	.zahid .row .col-sm-2 {flex: calc(100% / 12 * 2) !important;}
+	.zahid .row .col-sm-3 {flex: calc(100% / 12 * 3) !important;}
+	.zahid .row .col-sm-4 {flex: calc(100% / 12 * 4) !important;}
+	.zahid .row .col-sm-5 {flex: calc(100% / 12 * 5) !important;}
+	.zahid .row .col-sm-6 {flex: calc(100% / 12 * 6) !important;}
+	.zahid .row .col-sm-7 {flex: calc(100% / 12 * 7) !important;}
+	.zahid .row .col-sm-8 {flex: calc(100% / 12 * 8) !important;}
+	.zahid .row .col-sm-9 {flex: calc(100% / 12 * 9) !important;}
+	.zahid .row .col-sm-10 {flex: calc(100% / 12 * 10) !important;}
+	.zahid .row .col-sm-11 {flex: calc(100% / 12 * 11) !important;}
+	.zahid .row .col-sm-12 {flex: 0 0 100% !important;}
 }
 @media only screen and (min-width: 768px) and (max-width: 992px;) {
-	.zahid .hidden-md { display: none; }
-	.zahid .only-sm { display: none; }
-	.zahid .only-xs { display: none; }
-	.zahid .only-lg { display: none; }
-	.zahid .only-xl { display: none; }
-	.zahid .row .col-md-1 {flex: calc(100% / 12 * 1);}
-	.zahid .row .col-md-2 {flex: calc(100% / 12 * 2);}
-	.zahid .row .col-md-3 {flex: calc(100% / 12 * 3);}
-	.zahid .row .col-md-4 {flex: calc(100% / 12 * 4);}
-	.zahid .row .col-md-5 {flex: calc(100% / 12 * 5);}
-	.zahid .row .col-md-6 {flex: calc(100% / 12 * 6);}
-	.zahid .row .col-md-7 {flex: calc(100% / 12 * 7);}
-	.zahid .row .col-md-8 {flex: calc(100% / 12 * 8);}
-	.zahid .row .col-md-9 {flex: calc(100% / 12 * 9);}
-	.zahid .row .col-md-10 {flex: calc(100% / 12 * 10);}
-	.zahid .row .col-md-11 {flex: calc(100% / 12 * 11);}
-	.zahid .row .col-md-12 {flex: 0 0 100%;}
+	.zahid .hidden-md { display: none !important; }
+	.zahid .only-sm { display: none !important; }
+	.zahid .only-xs { display: none !important; }
+	.zahid .only-lg { display: none !important; }
+	.zahid .only-xl { display: none !important; }
+	.zahid .row .col-md-1 {flex: calc(100% / 12 * 1) !important;}
+	.zahid .row .col-md-2 {flex: calc(100% / 12 * 2) !important;}
+	.zahid .row .col-md-3 {flex: calc(100% / 12 * 3) !important;}
+	.zahid .row .col-md-4 {flex: calc(100% / 12 * 4) !important;}
+	.zahid .row .col-md-5 {flex: calc(100% / 12 * 5) !important;}
+	.zahid .row .col-md-6 {flex: calc(100% / 12 * 6) !important;}
+	.zahid .row .col-md-7 {flex: calc(100% / 12 * 7) !important;}
+	.zahid .row .col-md-8 {flex: calc(100% / 12 * 8) !important;}
+	.zahid .row .col-md-9 {flex: calc(100% / 12 * 9) !important;}
+	.zahid .row .col-md-10 {flex: calc(100% / 12 * 10) !important;}
+	.zahid .row .col-md-11 {flex: calc(100% / 12 * 11) !important;}
+	.zahid .row .col-md-12 {flex: 0 0 100% !important;}
 }
 @media only screen and (min-width: 992px) {
-	.zahid .hidden-lg { display: none; }
-	.zahid .only-sm { display: none; }
-	.zahid .only-md { display: none; }
-	.zahid .only-xs { display: none; }
-	.zahid .row .col-lg-1 {flex: calc(100% / 12 * 1);}
-	.zahid .row .col-lg-2 {flex: calc(100% / 12 * 2);}
-	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3);}
-	.zahid .row .col-lg-4 {flex: calc(100% / 12 * 4);}
-	.zahid .row .col-lg-5 {flex: calc(100% / 12 * 5);}
-	.zahid .row .col-lg-6 {flex: calc(100% / 12 * 6);}
-	.zahid .row .col-lg-7 {flex: calc(100% / 12 * 7);}
-	.zahid .row .col-lg-8 {flex: calc(100% / 12 * 8);}
-	.zahid .row .col-lg-9 {flex: calc(100% / 12 * 9);}
-	.zahid .row .col-lg-10 {flex: calc(100% / 12 * 10);}
-	.zahid .row .col-lg-11 {flex: calc(100% / 12 * 11);}
-	.zahid .row .col-lg-12 {flex: 0 0 100%;}
+	.zahid .hidden-lg { display: none !important; }
+	.zahid .only-sm { display: none !important; }
+	.zahid .only-md { display: none !important; }
+	.zahid .only-xs { display: none !important; }
+	.zahid .row .col-lg-1 {flex: calc(100% / 12 * 1) !important;}
+	.zahid .row .col-lg-2 {flex: calc(100% / 12 * 2) !important;}
+	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3) !important;}
+	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3) !important;}
+	.zahid .row .col-lg-4 {flex: calc(100% / 12 * 4) !important;}
+	.zahid .row .col-lg-5 {flex: calc(100% / 12 * 5) !important;}
+	.zahid .row .col-lg-6 {flex: calc(100% / 12 * 6) !important;}
+	.zahid .row .col-lg-7 {flex: calc(100% / 12 * 7) !important;}
+	.zahid .row .col-lg-8 {flex: calc(100% / 12 * 8) !important;}
+	.zahid .row .col-lg-9 {flex: calc(100% / 12 * 9) !important;}
+	.zahid .row .col-lg-10 {flex: calc(100% / 12 * 10) !important;}
+	.zahid .row .col-lg-11 {flex: calc(100% / 12 * 11) !important;}
+	.zahid .row .col-lg-12 {flex: 0 0 100% !important;}
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
-	.zahid .only-xl { display: none; }
+	.zahid .only-xl { display: none !important; }
 }
 @media only screen and (min-width: 1200px) {
-	.zahid .hidden-xl { display: none; }
-	.zahid .only-sm { display: none; }
-	.zahid .only-md { display: none; }
-	.zahid .only-xs { display: none; }
-	.zahid .row .col-xl-1 {flex: calc(100% / 12 * 1);}
-	.zahid .row .col-xl-2 {flex: calc(100% / 12 * 2);}
-	.zahid .row .col-xl-3 {flex: calc(100% / 12 * 3);}
-	.zahid .row .col-xl-4 {flex: calc(100% / 12 * 4);}
-	.zahid .row .col-xl-5 {flex: calc(100% / 12 * 5);}
-	.zahid .row .col-xl-6 {flex: calc(100% / 12 * 6);}
-	.zahid .row .col-xl-7 {flex: calc(100% / 12 * 7);}
-	.zahid .row .col-xl-8 {flex: calc(100% / 12 * 8);}
-	.zahid .row .col-xl-9 {flex: calc(100% / 12 * 9);}
-	.zahid .row .col-xl-10 {flex: calc(100% / 12 * 10);}
-	.zahid .row .col-xl-11 {flex: calc(100% / 12 * 11);}
-	.zahid .row .col-xl-12 {flex: 0 0 100%;}
+	.zahid .hidden-xl { display: none !important; }
+	.zahid .only-sm { display: none !important; }
+	.zahid .only-md { display: none !important; }
+	.zahid .only-xs { display: none !important; }
+	.zahid .row .col-xl-1 {flex: calc(100% / 12 * 1) !important;}
+	.zahid .row .col-xl-2 {flex: calc(100% / 12 * 2) !important;}
+	.zahid .row .col-xl-3 {flex: calc(100% / 12 * 3) !important;}
+	.zahid .row .col-xl-4 {flex: calc(100% / 12 * 4) !important;}
+	.zahid .row .col-xl-5 {flex: calc(100% / 12 * 5) !important;}
+	.zahid .row .col-xl-6 {flex: calc(100% / 12 * 6) !important;}
+	.zahid .row .col-xl-7 {flex: calc(100% / 12 * 7) !important;}
+	.zahid .row .col-xl-8 {flex: calc(100% / 12 * 8) !important;}
+	.zahid .row .col-xl-9 {flex: calc(100% / 12 * 9) !important;}
+	.zahid .row .col-xl-10 {flex: calc(100% / 12 * 10) !important;}
+	.zahid .row .col-xl-11 {flex: calc(100% / 12 * 11) !important;}
+	.zahid .row .col-xl-12 {flex: 0 0 100% !important;}
 }
 @keyframes zahidneon {
   from {
