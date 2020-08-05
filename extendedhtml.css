@@ -230,7 +230,10 @@ body{
 	width: 100%;
 	height: 100%;
 	display: none;
+	-webkit-animation-name: fadesliderslide;-webkit-animation-duration: 1.5s;animation-name: fadesliderslide;animation-duration: 1.5s;
 }
+@-webkit-keyframes fadesliderslide { from {opacity: .4} to {opacity: 1} }
+@keyframes fadesliderslide { from {opacity: .4} to {opacity: 1} }
 .zahid .slider .slider-slides:first-child{
 	display: block;
 }
