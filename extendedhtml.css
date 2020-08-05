@@ -53,24 +53,79 @@ body{
 .zahid .row .col-10 {flex: calc(100% / 12 * 10);}
 .zahid .row .col-11 {flex: calc(100% / 12 * 11);}
 .zahid .row .col-12 {flex: 0 0 100%;}
+.zahid .row .col-xs-1{ display: none; }
+.zahid .row .col-xs-2{ display: none; }
+.zahid .row .col-xs-3{ display: none; }
+.zahid .row .col-xs-4{ display: none; }
+.zahid .row .col-xs-6{ display: none; }
+.zahid .row .col-xs-7{ display: none; }
+.zahid .row .col-xs-8{ display: none; }
+.zahid .row .col-xs-9{ display: none; }
+.zahid .row .col-xs-10{ display: none; }
+.zahid .row .col-xs-11{ display: none; }
+.zahid .row .col-xs-12{ display: none; }
+.zahid .row .col-sm-1{ display: none; }
+.zahid .row .col-sm-2{ display: none; }
+.zahid .row .col-sm-3{ display: none; }
+.zahid .row .col-sm-4{ display: none; }
+.zahid .row .col-sm-6{ display: none; }
+.zahid .row .col-sm-7{ display: none; }
+.zahid .row .col-sm-8{ display: none; }
+.zahid .row .col-sm-9{ display: none; }
+.zahid .row .col-sm-10{ display: none; }
+.zahid .row .col-sm-11{ display: none; }
+.zahid .row .col-sm-12{ display: none; }
+.zahid .row .col-md-1{ display: none; }
+.zahid .row .col-md-2{ display: none; }
+.zahid .row .col-md-3{ display: none; }
+.zahid .row .col-md-4{ display: none; }
+.zahid .row .col-md-6{ display: none; }
+.zahid .row .col-md-7{ display: none; }
+.zahid .row .col-md-8{ display: none; }
+.zahid .row .col-md-9{ display: none; }
+.zahid .row .col-md-10{ display: none; }
+.zahid .row .col-md-11{ display: none; }
+.zahid .row .col-md-12{ display: none; }
+.zahid .row .col-lg-1{ display: none; }
+.zahid .row .col-lg-2{ display: none; }
+.zahid .row .col-lg-3{ display: none; }
+.zahid .row .col-lg-4{ display: none; }
+.zahid .row .col-lg-6{ display: none; }
+.zahid .row .col-lg-7{ display: none; }
+.zahid .row .col-lg-8{ display: none; }
+.zahid .row .col-lg-9{ display: none; }
+.zahid .row .col-lg-10{ display: none; }
+.zahid .row .col-lg-11{ display: none; }
+.zahid .row .col-lg-12{ display: none; }
+.zahid .row .col-xl-1{ display: none; }
+.zahid .row .col-xl-2{ display: none; }
+.zahid .row .col-xl-3{ display: none; }
+.zahid .row .col-xl-4{ display: none; }
+.zahid .row .col-xl-6{ display: none; }
+.zahid .row .col-xl-7{ display: none; }
+.zahid .row .col-xl-8{ display: none; }
+.zahid .row .col-xl-9{ display: none; }
+.zahid .row .col-xl-10{ display: none; }
+.zahid .row .col-xl-11{ display: none; }
+.zahid .row .col-xl-12{ display: none; }
 @media only screen and (max-width: 600px) {
 	.zahid .hidden-xs { display: none !important; }
 	.zahid .only-sm { display: none !important; }
 	.zahid .only-md { display: none !important; }
 	.zahid .only-lg { display: none !important; }
 	.zahid .only-xl { display: none !important; }
-	.zahid .row .col-xs-1 {flex: calc(100% / 12 * 1) !important;}
-	.zahid .row .col-xs-2 {flex: calc(100% / 12 * 2) !important;}
-	.zahid .row .col-xs-3 {flex: calc(100% / 12 * 3) !important;}
-	.zahid .row .col-xs-4 {flex: calc(100% / 12 * 4) !important;}
-	.zahid .row .col-xs-5 {flex: calc(100% / 12 * 5) !important;}
-	.zahid .row .col-xs-6 {flex: calc(100% / 12 * 6) !important;}
-	.zahid .row .col-xs-7 {flex: calc(100% / 12 * 7) !important;}
-	.zahid .row .col-xs-8 {flex: calc(100% / 12 * 8) !important;}
-	.zahid .row .col-xs-9 {flex: calc(100% / 12 * 9) !important;}
-	.zahid .row .col-xs-10 {flex: calc(100% / 12 * 10) !important;}
-	.zahid .row .col-xs-11 {flex: calc(100% / 12 * 11) !important;}
-	.zahid .row .col-xs-12 {flex: 0 0 100% !important;}
+	.zahid .row .col-xs-1 {flex: calc(100% / 12 * 1) !important;display: block;}
+	.zahid .row .col-xs-2 {flex: calc(100% / 12 * 2) !important;display: block;}
+	.zahid .row .col-xs-3 {flex: calc(100% / 12 * 3) !important;display: block;}
+	.zahid .row .col-xs-4 {flex: calc(100% / 12 * 4) !important;display: block;}
+	.zahid .row .col-xs-5 {flex: calc(100% / 12 * 5) !important;display: block;}
+	.zahid .row .col-xs-6 {flex: calc(100% / 12 * 6) !important;display: block;}
+	.zahid .row .col-xs-7 {flex: calc(100% / 12 * 7) !important;display: block;}
+	.zahid .row .col-xs-8 {flex: calc(100% / 12 * 8) !important;display: block;}
+	.zahid .row .col-xs-9 {flex: calc(100% / 12 * 9) !important;display: block;}
+	.zahid .row .col-xs-10 {flex: calc(100% / 12 * 10) !important;display: block;}
+	.zahid .row .col-xs-11 {flex: calc(100% / 12 * 11) !important;display: block;}
+	.zahid .row .col-xs-12 {flex: 0 0 100% !important;display: block;}
 }
 @media only screen and (min-width: 600px) and (max-width: 768px)
 {
@@ -79,18 +134,18 @@ body{
 	.zahid .only-md { display: none !important; }
 	.zahid .only-lg { display: none !important; }
 	.zahid .only-xl { display: none !important; }
-	.zahid .row .col-sm-1 {flex: calc(100% / 12 * 1) !important;}
-	.zahid .row .col-sm-2 {flex: calc(100% / 12 * 2) !important;}
-	.zahid .row .col-sm-3 {flex: calc(100% / 12 * 3) !important;}
-	.zahid .row .col-sm-4 {flex: calc(100% / 12 * 4) !important;}
-	.zahid .row .col-sm-5 {flex: calc(100% / 12 * 5) !important;}
-	.zahid .row .col-sm-6 {flex: calc(100% / 12 * 6) !important;}
-	.zahid .row .col-sm-7 {flex: calc(100% / 12 * 7) !important;}
-	.zahid .row .col-sm-8 {flex: calc(100% / 12 * 8) !important;}
-	.zahid .row .col-sm-9 {flex: calc(100% / 12 * 9) !important;}
-	.zahid .row .col-sm-10 {flex: calc(100% / 12 * 10) !important;}
-	.zahid .row .col-sm-11 {flex: calc(100% / 12 * 11) !important;}
-	.zahid .row .col-sm-12 {flex: 0 0 100% !important;}
+	.zahid .row .col-sm-1 {flex: calc(100% / 12 * 1) !important;display: block;}
+	.zahid .row .col-sm-2 {flex: calc(100% / 12 * 2) !important;display: block;}
+	.zahid .row .col-sm-3 {flex: calc(100% / 12 * 3) !important;display: block;}
+	.zahid .row .col-sm-4 {flex: calc(100% / 12 * 4) !important;display: block;}
+	.zahid .row .col-sm-5 {flex: calc(100% / 12 * 5) !important;display: block;}
+	.zahid .row .col-sm-6 {flex: calc(100% / 12 * 6) !important;display: block;}
+	.zahid .row .col-sm-7 {flex: calc(100% / 12 * 7) !important;display: block;}
+	.zahid .row .col-sm-8 {flex: calc(100% / 12 * 8) !important;display: block;}
+	.zahid .row .col-sm-9 {flex: calc(100% / 12 * 9) !important;display: block;}
+	.zahid .row .col-sm-10 {flex: calc(100% / 12 * 10) !important;display: block;}
+	.zahid .row .col-sm-11 {flex: calc(100% / 12 * 11) !important;display: block;}
+	.zahid .row .col-sm-12 {flex: 0 0 100% !important;display: block;}
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	.zahid .hidden-md { display: none !important; }
@@ -98,37 +153,37 @@ body{
 	.zahid .only-xs { display: none !important; }
 	.zahid .only-lg { display: none !important; }
 	.zahid .only-xl { display: none !important; }
-	.zahid .row .col-md-1 {flex: calc(100% / 12 * 1) !important;}
-	.zahid .row .col-md-2 {flex: calc(100% / 12 * 2) !important;}
-	.zahid .row .col-md-3 {flex: calc(100% / 12 * 3) !important;}
-	.zahid .row .col-md-4 {flex: calc(100% / 12 * 4) !important;}
-	.zahid .row .col-md-5 {flex: calc(100% / 12 * 5) !important;}
-	.zahid .row .col-md-6 {flex: calc(100% / 12 * 6) !important;}
-	.zahid .row .col-md-7 {flex: calc(100% / 12 * 7) !important;}
-	.zahid .row .col-md-8 {flex: calc(100% / 12 * 8) !important;}
-	.zahid .row .col-md-9 {flex: calc(100% / 12 * 9) !important;}
-	.zahid .row .col-md-10 {flex: calc(100% / 12 * 10) !important;}
-	.zahid .row .col-md-11 {flex: calc(100% / 12 * 11) !important;}
-	.zahid .row .col-md-12 {flex: 0 0 100% !important;}
+	.zahid .row .col-md-1 {flex: calc(100% / 12 * 1) !important;display: block;}
+	.zahid .row .col-md-2 {flex: calc(100% / 12 * 2) !important;display: block;}
+	.zahid .row .col-md-3 {flex: calc(100% / 12 * 3) !important;display: block;}
+	.zahid .row .col-md-4 {flex: calc(100% / 12 * 4) !important;display: block;}
+	.zahid .row .col-md-5 {flex: calc(100% / 12 * 5) !important;display: block;}
+	.zahid .row .col-md-6 {flex: calc(100% / 12 * 6) !important;display: block;}
+	.zahid .row .col-md-7 {flex: calc(100% / 12 * 7) !important;display: block;}
+	.zahid .row .col-md-8 {flex: calc(100% / 12 * 8) !important;display: block;}
+	.zahid .row .col-md-9 {flex: calc(100% / 12 * 9) !important;display: block;}
+	.zahid .row .col-md-10 {flex: calc(100% / 12 * 10) !important;display: block;}
+	.zahid .row .col-md-11 {flex: calc(100% / 12 * 11) !important;display: block;}
+	.zahid .row .col-md-12 {flex: 0 0 100% !important;display: block;}
 }
 @media only screen and (min-width: 992px) {
 	.zahid .hidden-lg { display: none !important; }
 	.zahid .only-sm { display: none !important; }
 	.zahid .only-md { display: none !important; }
 	.zahid .only-xs { display: none !important; }
-	.zahid .row .col-lg-1 {flex: calc(100% / 12 * 1) !important;}
-	.zahid .row .col-lg-2 {flex: calc(100% / 12 * 2) !important;}
-	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3) !important;}
-	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3) !important;}
-	.zahid .row .col-lg-4 {flex: calc(100% / 12 * 4) !important;}
-	.zahid .row .col-lg-5 {flex: calc(100% / 12 * 5) !important;}
-	.zahid .row .col-lg-6 {flex: calc(100% / 12 * 6) !important;}
-	.zahid .row .col-lg-7 {flex: calc(100% / 12 * 7) !important;}
-	.zahid .row .col-lg-8 {flex: calc(100% / 12 * 8) !important;}
-	.zahid .row .col-lg-9 {flex: calc(100% / 12 * 9) !important;}
-	.zahid .row .col-lg-10 {flex: calc(100% / 12 * 10) !important;}
-	.zahid .row .col-lg-11 {flex: calc(100% / 12 * 11) !important;}
-	.zahid .row .col-lg-12 {flex: 0 0 100% !important;}
+	.zahid .row .col-lg-1 {flex: calc(100% / 12 * 1) !important;display: block;}
+	.zahid .row .col-lg-2 {flex: calc(100% / 12 * 2) !important;display: block;}
+	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3) !important;display: block;}
+	.zahid .row .col-lg-3 {flex: calc(100% / 12 * 3) !important;display: block;}
+	.zahid .row .col-lg-4 {flex: calc(100% / 12 * 4) !important;display: block;}
+	.zahid .row .col-lg-5 {flex: calc(100% / 12 * 5) !important;display: block;}
+	.zahid .row .col-lg-6 {flex: calc(100% / 12 * 6) !important;display: block;}
+	.zahid .row .col-lg-7 {flex: calc(100% / 12 * 7) !important;display: block;}
+	.zahid .row .col-lg-8 {flex: calc(100% / 12 * 8) !important;display: block;}
+	.zahid .row .col-lg-9 {flex: calc(100% / 12 * 9) !important;display: block;}
+	.zahid .row .col-lg-10 {flex: calc(100% / 12 * 10) !important;display: block;}
+	.zahid .row .col-lg-11 {flex: calc(100% / 12 * 11) !important;display: block;}
+	.zahid .row .col-lg-12 {flex: 0 0 100% !important;display: block;}
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 	.zahid .only-xl { display: none !important; }
@@ -138,18 +193,18 @@ body{
 	.zahid .only-sm { display: none !important; }
 	.zahid .only-md { display: none !important; }
 	.zahid .only-xs { display: none !important; }
-	.zahid .row .col-xl-1 {flex: calc(100% / 12 * 1) !important;}
-	.zahid .row .col-xl-2 {flex: calc(100% / 12 * 2) !important;}
-	.zahid .row .col-xl-3 {flex: calc(100% / 12 * 3) !important;}
-	.zahid .row .col-xl-4 {flex: calc(100% / 12 * 4) !important;}
-	.zahid .row .col-xl-5 {flex: calc(100% / 12 * 5) !important;}
-	.zahid .row .col-xl-6 {flex: calc(100% / 12 * 6) !important;}
-	.zahid .row .col-xl-7 {flex: calc(100% / 12 * 7) !important;}
-	.zahid .row .col-xl-8 {flex: calc(100% / 12 * 8) !important;}
-	.zahid .row .col-xl-9 {flex: calc(100% / 12 * 9) !important;}
-	.zahid .row .col-xl-10 {flex: calc(100% / 12 * 10) !important;}
-	.zahid .row .col-xl-11 {flex: calc(100% / 12 * 11) !important;}
-	.zahid .row .col-xl-12 {flex: 0 0 100% !important;}
+	.zahid .row .col-xl-1 {flex: calc(100% / 12 * 1) !important;display: block;}
+	.zahid .row .col-xl-2 {flex: calc(100% / 12 * 2) !important;display: block;}
+	.zahid .row .col-xl-3 {flex: calc(100% / 12 * 3) !important;display: block;}
+	.zahid .row .col-xl-4 {flex: calc(100% / 12 * 4) !important;display: block;}
+	.zahid .row .col-xl-5 {flex: calc(100% / 12 * 5) !important;display: block;}
+	.zahid .row .col-xl-6 {flex: calc(100% / 12 * 6) !important;display: block;}
+	.zahid .row .col-xl-7 {flex: calc(100% / 12 * 7) !important;display: block;}
+	.zahid .row .col-xl-8 {flex: calc(100% / 12 * 8) !important;display: block;}
+	.zahid .row .col-xl-9 {flex: calc(100% / 12 * 9) !important;display: block;}
+	.zahid .row .col-xl-10 {flex: calc(100% / 12 * 10) !important;display: block;}
+	.zahid .row .col-xl-11 {flex: calc(100% / 12 * 11) !important;display: block;}
+	.zahid .row .col-xl-12 {flex: 0 0 100% !important;display: block;}
 }
 @keyframes zahidneon {
   from {
