@@ -9,6 +9,24 @@ var slideIndex = 1;
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+var slideIndexs = 0;
+showSlidef();
+function showSlidef() {
+  var f;
+  var slide = document.getElementsByClassName("slider-slides");
+  var dot = document.getElementsByClassName("dot");
+  for (f = 0; f < slide.length; f++) {
+    slide[f].style.display = "none";  
+  }
+  slideIndexs++;
+  if (slideIndexs > slide.length) {slideIndexs = 1}    
+  for (f = 0; f < dot.length; f++) {
+    dot[f].className = dot[f].className.replace(" active", "");
+  }
+  slide[slideIndexs-1].style.display = "block";  
+  dot[slideIndexs-1].className += " active";
+  setTimeout(showSlidef, 8000); // Change image every 8 seconds
+}
 function showDivs(n) {
   var i;
   var dots = document.getElementsByClassName("dot");
@@ -27,22 +45,4 @@ function showDivs(n) {
 showDivs(slideIndex);
 function plusDivs(n) {
   showDivs(slideIndex += n);
-}
-var slideIndexs = 0;
-showSlidef();
-function showSlidef() {
-  var f;
-  var slide = document.getElementsByClassName("slider-slides");
-  var dot = document.getElementsByClassName("dot");
-  for (f = 0; f < slide.length; f++) {
-    slide[f].style.display = "none";  
-  }
-  slideIndexs++;
-  if (slideIndexs > slide.length) {slideIndexs = 1}    
-  for (f = 0; f < dot.length; f++) {
-    dot[f].className = dot[f].className.replace(" active", "");
-  }
-  slide[slideIndexs-1].style.display = "block";  
-  dot[slideIndexs-1].className += " active";
-  setTimeout(showSlidef, 8000); // Change image every 8 seconds
 }
