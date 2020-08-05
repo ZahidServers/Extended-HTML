@@ -25,7 +25,7 @@ function showSlidef() {
   }
   slide[slideIndexs-1].style.display = "block";  
   dot[slideIndexs-1].className += " active";
-  setTimeout(showSlidef, 8000); // Change image every 8 seconds
+  setTimeout(showSlidef, 9000); // Change image every 9 seconds
 }
 showSlidef();
 });
