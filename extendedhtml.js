@@ -32,7 +32,7 @@ var slideIndexs = 0;
 showSlidef();
 function showSlidef() {
   var f;
-  var slide = document.getElementsByClassName("mySlides");
+  var slide = document.getElementsByClassName("slider-slides");
   var dot = document.getElementsByClassName("dot");
   for (f = 0; f < slide.length; f++) {
     slide[f].style.display = "none";  
