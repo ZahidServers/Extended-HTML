@@ -9,6 +9,7 @@ var slideIndex = 1;
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+window.addEventListener('DOMContentLoaded', (event) => {
 var slideIndexs = 0;
 function showSlidef() {
   var f;
@@ -27,6 +28,7 @@ function showSlidef() {
   setTimeout(showSlidef, 8000); // Change image every 8 seconds
 }
 showSlidef();
+});
 function showDivs(n) {
   var i;
   var dots = document.getElementsByClassName("dot");
